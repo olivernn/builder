@@ -1,0 +1,25 @@
+{
+  name: "builder",
+  description: "XML Generator",
+  version: "0.0.1",
+  keywords: [
+    "xml",
+    "generator"
+  ],
+  engines: {
+    node: "*"
+  },
+  main: "index",
+  author: "Oliver Nightingale",
+  repository: {
+    type: "git",
+    url: "git://github.com/olivernn/builder.git"
+  },
+  dependencies: {
+    "node-proxy": ">= 0.4.0"
+  }
+  licenses: [{
+    type: "Creative Commons",
+    url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  }]
+}
